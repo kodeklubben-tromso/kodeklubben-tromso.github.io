@@ -9,13 +9,17 @@
 }
 .h1 {
     font-family: "Minecrafter";
-    color: #2cb404;
+    color: #F9F513;
 }
 
 html {
     background-color: #393535;
 }
 
+p {
+	color: #F9F513;
+	font-family: "Press Start 2P"
+}
 
 
 
@@ -50,7 +54,7 @@ html {
 /* Carousel base class */
 .carousel {
   margin-bottom: 150px;
-  height: 80%;
+  max-height: 100%;
 
 }
 /* Since positioning the image, we need to help out the caption */
@@ -61,23 +65,9 @@ html {
 .carousel-caption h1 {
 	font-size: 70px;
 	font-family: "Press Start 2P";
-	font-weight: bold;
-	-webkit-text-stroke: 1px black;
 
-	/* If we weren't using text-shadow, we'd set a fallback color
-	   and use this to set color instead
-	  -webkit-text-fill-color: white; */
+	color: #F9F513;
 
-	color: #2cb404;
-
-	text-shadow:
-
-	  /* Simulated effect for Firefox and Opera
-		 and nice enhancement for WebKit */
-	 -1px -1px 0 #000,
-	  1px -1px 0 #000,
-	 -1px  1px 0 #000,
-	  1px  1px 0 #000;
 }
 
 
@@ -87,11 +77,14 @@ html {
 }
 
 .carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 100%;
+	bottom: 0;
+    left: 0;
+    margin: auto;
+    min-width: 100%;
+	min-height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 html,body{height: 100%;}
@@ -110,6 +103,7 @@ html,body{height: 100%;}
   margin-bottom: 20px;
   text-align: center;
 }
+
 .marketing h2 {
   font-size: 40px;
   font-weight: bold;
@@ -120,7 +114,7 @@ html,body{height: 100%;}
 	 and use this to set color instead
 	-webkit-text-fill-color: white; */
 
-  color: #2cb404;
+  color: #F9F513;
 
   text-shadow:
 
@@ -137,7 +131,7 @@ html,body{height: 100%;}
 }
 
 .marketing .col-md-7 p {
-	color: #2cb404;
+	color: #F9F513;
 	font-size: 15px;
 	font-family: "Press Start 2P";
 	font-weight: lighter;
@@ -155,11 +149,17 @@ html,body{height: 100%;}
 /* Thin out the marketing headings */
 .featurette-heading {
   font-family: "Minecrafter";
-  line-height: 1;
+  line-height: 1.5;
   letter-spacing: -1px;
+  position: center;
 }
 
+.featurette-image .img-responsive .center-block{
+	position: center;
+	width: 100%;
+	height: 100%;
 
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -213,7 +213,7 @@ html,body{height: 100%;}
        and use this to set color instead
       -webkit-text-fill-color: white; */
 
-    color: #2cb404;
+    color: #F9F513;
 
     text-shadow:
       3px 3px 0 #000,
@@ -235,7 +235,7 @@ html,body{height: 100%;}
        and use this to set color instead
       -webkit-text-fill-color: white; */
 
-    color: #2cb404;
+    color: #F9F513;
 
     text-shadow:
       3px 3px 0 #000,
@@ -248,7 +248,7 @@ html,body{height: 100%;}
 }
 
 .jumbotron {
-	height: 20%;
+	min-height: 20%;
     background-color: #333;
 	margin-bottom: 0;
 }
