@@ -21,7 +21,10 @@ p {
 	font-family: "Press Start 2P"
 }
 
-
+a {
+	font-family: "Press Start 2P";
+	text-decoration-color: transparent;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -107,6 +110,7 @@ html,body{height: 100%;}
 .marketing h2 {
   font-size: 40px;
   font-weight: bold;
+  color: #C2A811;
   font-family: "Press Start 2P";
   -webkit-text-stroke: 1px black;
 
@@ -163,7 +167,7 @@ html,body{height: 100%;}
 
 
 .btn .btn-primary .btn-lg {
-	
+
 }
 
 /* RESPONSIVE CSS
