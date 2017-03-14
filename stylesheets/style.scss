@@ -1,7 +1,11 @@
 ---
 ---
 
+/* General config
+----------------- */
+
 $textcolor : #F9F513;
+$backgroundcolor: #393535;
 
 @font-face{
 	font-family: 'Minecrafter';
@@ -11,78 +15,77 @@ $textcolor : #F9F513;
 	     url('../fonts/minecrafter.reg-webfont.ttf') format('truetype'),
 	     url('../fonts/minecrafter.reg-webfont.svg#webfont') format('svg');
 }
-.h1 {
-    font-family: "Minecrafter";
-    color: $textcolor;
+
+/* Base styles
+-------------- */
+
+* {
+  font-family: "Press Start 2P";
+	color: $textcolor;
 }
 
 html {
-    background-color: #393535;
+    background-color: $backgroundcolor;
 }
 
-p {
-	color: $textcolor;
-	font-family: "Press Start 2P"
+hr {
+  margin: 80px 0;
+  border: none !important; /* @TODO This will be removed */
 }
 
-a {
-	font-family: "Press Start 2P";
-	text-decoration-color: transparent;
+
+h2, h3, h4, h5, h6 {
+  text-shadow:
+   -1px -1px 0 #000,
+	1px -1px 0 #000,
+   -1px  1px 0 #000,
+	1px  1px 0 #000;
 }
 
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
 
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
+/* Header
+--------- */
+
+.jumbotron {
+  background-color: $backgroundcolor;
+	margin-bottom: 0;
 }
 
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
+.jumbotron h1, .jumbotron h2 {
+  color: $textcolor;
+
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
 }
 
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
+.jumbotron h1 {
+  font-family: "Minecrafter";
+  font-size: 104px;
 }
 
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
+/* Carousel
+-----------  */
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
+/*
 .carousel {
   margin-bottom: 150px;
   max-height: 100%;
 }
+*/
 
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-.carousel-caption h1 {
+.carousel-caption, .carousel-caption a {
+  text-transform: capitalize;
 	font-size: 70px;
-	font-family: "Press Start 2P";
 	color: $textcolor;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  background-color: #777;
-}
 
 .carousel-inner > .item > img {
+  /* Some weird auto-sizing to make the image scale accordingly */
 	bottom: 0;
     left: 0;
     margin: auto;
@@ -99,148 +102,4 @@ html,body{height: 100%;}
 .carousel-inner{height:100%;}
 .fill{width:100%;height:100%;background-position:center;background-size:cover;}
 
-/* MARKETING CONTENT
--------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.marketing h2 {
-  font-size: 40px;
-  font-weight: bold;
-  color: #C2A811;
-  font-family: "Press Start 2P";
-  -webkit-text-stroke: 1px black;
-
-  /* If we weren't using text-shadow, we'd set a fallback color
-	 and use this to set color instead
-	-webkit-text-fill-color: white; */
-
-  color: $textcolor;
-	/* Simulated effect for Firefox and Opera
-	   and nice enhancement for WebKit */
-  text-shadow:
-   -1px -1px 0 #000,
-	1px -1px 0 #000,
-   -1px  1px 0 #000,
-	1px  1px 0 #000;
-}
-
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.marketing .col-md-7 p {
-	color: $textcolor;
-	font-size: 15px;
-	font-family: "Press Start 2P";
-	font-weight: lighter;
-}
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-  border-color: #333;
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-family: "Minecrafter";
-  line-height: 1.5;
-  letter-spacing: -1px;
-  position: center;
-}
-
-.featurette-image .img-responsive .center-block{
-	position: center;
-	width: 100%;
-	height: 100%;
-}
-
-.btn .btn-primary .btn-lg {
-
-}
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
-@media (min-width: 768px) {
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
-  }
-}
-
-/* Jumbotron and stuff */
-
-.jumbotron h1, .jumbotron h2 {
-  /* WebKit (Safari/Chrome) Only */
-  -webkit-text-stroke: 1px black;
-
-  /* If we weren't using text-shadow, we'd set a fallback color
-      and use this to set color instead
-    -webkit-text-fill-color: white; */
-
-  color: $textcolor;
-
-  text-shadow:
-    3px 3px 0 #000,
-    /* Simulated effect for Firefox and Opera
-        and nice enhancement for WebKit */
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px  1px 0 #000,
-    1px  1px 0 #000;
-}
-
-.jumbotron h1 {
-  font-family: "Minecrafter";
-  font-size: 104px;
-}
-
-.jumbotron h2 {
-  font-family: 'Press Start 2P', cursive;
-}
-
-.jumbotron {
-	min-height: 20%;
-  background-color: #333;
-	margin-bottom: 0;
-}
