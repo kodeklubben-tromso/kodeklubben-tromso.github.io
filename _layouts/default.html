@@ -13,20 +13,42 @@
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
         <link href="stylesheets/style.css" rel="stylesheet" />
     </head>
-
     <body>
-        <div class="jumbotron text-center">
-            <h1>Kodeklubben</h1>
-            <h2>TROMSØ</h2>
-        </div>
-        {% include carousel.html %}
-        <div class="container content">
-        {{ content }}
 
-            <footer>
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>Kodeklubben Tromsø, 2016-2017</p>
-            </footer>
-        </div>
+    <div class="container">
+        <nav class="navbar navbar-toggleable-md navbar-inverse">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="navbar-brand" href="#">Kodeklubben Tromsø</span>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item {% if page.menuclass == "forside" %}active{% endif %}">
+                        <a class="nav-link" href="/">Forside</a>
+                    </li>
+                    <li class="nav-item {% if page.menuclass == "omkk" %}active{% endif %}">
+                        <a class="nav-link" href="/om_kodeklubben.html">Om kodeklubben</a>
+                    </li>
+                    <li class="nav-item {% if page.menuclass == "kursene" %}active{% endif %}">
+                        <a class="nav-link" href="/kursene.html">Kursene</a>
+                    </li>
+                    <li class="nav-item {% if page.menuclass == "kontakt" %}active{% endif %}">
+                        <a class="nav-link" href="/kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+    {% include carousel.html %}
+    </div>
+
+    <div class="container content">
+    {{ content }}
+    </div>
+    <footer class="text-center">
+        <p>Kodeklubben Tromsø, 2016-2017</p>
+    </footer>
     </body>
 </html>
