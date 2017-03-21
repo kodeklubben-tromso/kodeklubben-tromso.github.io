@@ -7,7 +7,7 @@
 $textcolor : #F9F513;
 $backgroundcolor: #393535;
 
-@font-face{
+@font-face {
 	font-family: 'Minecrafter';
 	src: url('../fonts/minecrafter.reg-webfont.eot');
 	src: url('../fonts/minecrafter.reg-webfont.eot?#iefix') format('embedded-opentype'),
@@ -71,26 +71,23 @@ h2, h3, h4, h5, h6 {
 /* Carousel
 -----------  */
 
+.carousel {
+  height:80%;
+  max-height: 80%;
+  overflow: hidden;
+}
+
 .carousel-caption, .carousel-caption a {
   text-transform: capitalize;
 	font-size: 70px;
 	color: $textcolor;
 }
 
-
-.carousel-inner > .item > img {
-  /* Some weird auto-sizing to make the image scale accordingly */
-	bottom: 0;
-    left: 0;
-    margin: auto;
-    min-width: 100%;
-	min-height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
+.carousel-inner {
+  height:100%;
+  max-height: 100%;
 }
 
-html,body{height: 100%;}
-.carousel{height:80%;}
-.item,.active{height:100%;}
-.carousel-inner{height:100%;}
+.carousel-item {
+  height:100%;
+}
