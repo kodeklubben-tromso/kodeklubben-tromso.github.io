@@ -12,8 +12,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
         <link href="stylesheets/style.css" rel="stylesheet" />
+        <script src="js/particles.min.js"></script>
     </head>
-    <body>
+    <body id="particles-js" >
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -23,34 +24,46 @@
         fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
 
-        <div class="container">
-            <nav class="navbar navbar-toggleable-md navbar-inverse">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <span class="navbar-brand">Kodeklubben Tromsø</span>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item {% if page.menuclass == "forside" %}active{% endif %}">
-                            <a class="nav-link" href="/">Forside</a>
-                        </li>
-                        <li class="nav-item {% if page.menuclass == "omkk" %}active{% endif %}">
-                            <a class="nav-link" href="/om_kodeklubben.html">Om kodeklubben</a>
-                        </li>
-                        <li class="nav-item {% if page.menuclass == "kursene" %}active{% endif %}">
-                            <a class="nav-link" href="/kursene.html">Kursene</a>
-                        </li>
-                        <li class="nav-item {% if page.menuclass == "kontakt" %}active{% endif %}">
-                            <a class="nav-link" href="/kontakt.html">Kontakt</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="container">
+        <!-- div class="container">
         {% include carousel.html %}
+        </div -->
+
+        <div class="container">
+            <div class="header row align-items-end justify-content-between">
+                <div class="col-xs">
+                    <img src="static/logo.png" width="200" alt="Kodeklubben Tromsø">
+                </div>
+                <div class="col-xs-12 col-md-auto">
+
+                    <nav class="navbar navbar-toggleable-sm navbar-inverse">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- span class="navbar-brand">
+                            <img src="static/logo_notext.png" alt="Kodeklubben Tromsø">
+                            Kodeklubben Tromsø</span -->
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item {% if page.menuclass == "forside" %}active{% endif %}">
+                                    <a class="nav-link" href="/">Forside</a>
+                                </li>
+                                <li class="nav-item {% if page.menuclass == "omkk" %}active{% endif %}">
+                                    <a class="nav-link" href="/om_kodeklubben.html">Om kodeklubben</a>
+                                </li>
+                                <li class="nav-item {% if page.menuclass == "kursene" %}active{% endif %}">
+                                    <a class="nav-link" href="/kursene.html">Kursene</a>
+                                </li>
+                                <li class="nav-item {% if page.menuclass == "kontakt" %}active{% endif %}">
+                                    <a class="nav-link" href="/kontakt.html">Kontakt</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
+        <hr />
 
         <div class="container content">
         {{ content }}
@@ -59,4 +72,9 @@
             <p>Kodeklubben Tromsø, 2016-2017</p>
         </footer>
     </body>
+<script>
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'static/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});</script>
 </html>

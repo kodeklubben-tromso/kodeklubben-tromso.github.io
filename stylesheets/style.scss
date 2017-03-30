@@ -54,8 +54,25 @@ footer {
 	color: $textcolor !important;
 }
 
+.navbar-inverse .navbar-nav .nav-link {
+  color: $textcolor !important;
+}
+
+.navbar-inverse .navbar-nav .active .nav-link {
+  text-decoration: underline;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px red;
+}
+
 /* Header
 --------- */
+
+canvas.particles-js-canvas-el {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -999;
+}
 
 .jumbotron {
   background-color: $backgroundcolor;
