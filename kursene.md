@@ -10,14 +10,40 @@ vi ser at [Scratch](https://scratch.mit.edu) fungerer veldig bra som en innføri
 
 Våren 2017 kjører vi to forskjellige kurs fra og med tirsdag 21. februar frem til påske.
 
-### Nybegynnerkurs
-Tid: Tirsdager kl 18-20  
-Sted: Teknologibygget rom 1.026  
-Nybegynnerkurset vårt benytter [Scratch](https://scratch.mit.edu) og [Littlebits](http://littlebits.cc).  
-[Påmelding](https://goo.gl/forms/eWbrlPPKz3U50V4K2){:target="_blank"}
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card card-inverse" style="background-color: #333; border-color: #333;">
+        <!-- img class="card-img-top" src="..." alt="Card image cap" -->
+        <div class="card-block">
+            <h4 class="card-title">Nybegynnerkurs</h4>
+            <p class="card-text">
+            Nybegynnerkurset vårt benytter <a href="https://scratch.mit.edu">Scratch</a> og <a href="http://littlebits.cc">Littlebits</a>.
+            </p>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">Tid: Tirsdager kl 18-20</li>
+            <li class="list-group-item">Sted: Teknologibygget rom 1.026</li>
+            <li class="list-group-item">Egnet for: Alle.</li>
+            </ul>
+            <a href="https://goo.gl/forms/eWbrlPPKz3U50V4K2" target="_blank" class="btn btn-primary">Påmelding</a>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card card-inverse" style="background-color: #333; border-color: #333;">
+        <!-- img class="card-img-top" src="..." alt="Card image cap" -->
+        <div class="card-block">
+            <h4 class="card-title">Kurs for viderekomne</h4>
+            <p class="card-text">
+            Dette kurset inneholder Littlebits, BBC Micro:Bit, Mindstorm EVO roboter og lignende.
+            </p>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">Tid: Tirsdager kl 18-20</li>
+            <li class="list-group-item">Sted: Realfagbygget, skolelabben (A140)</li>
+            <li class="list-group-item">Egnet for: De som har vært på kodeklubben ett semester før.</li>
+            </ul>
+            <a href="https://goo.gl/forms/5qs1NpBErupYF4Sn2" target="_blank" class="btn btn-primary">Påmelding</a>
+        </div>
+        </div>
+    </div>
+</div>
 
-### Kurs for viderekomne
-Tid: Tirsdager kl 18-20  
-Sted: Realfagbygget, skolelabben (A140)  
-Dette kurset inneholder Littlebits, BBC Micro:Bit, Mindstorm EVO roboter og lignende.  
-[Påmelding](https://goo.gl/forms/5qs1NpBErupYF4Sn2){:target="_blank"}  
