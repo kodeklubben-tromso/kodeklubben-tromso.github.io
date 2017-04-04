@@ -63,6 +63,20 @@ footer {
   text-shadow: 1px 1px 2px red;
 }
 
+.navbar-inverse .btn-primary {
+  background-color: transparent;
+  border-color: #222222;
+}
+
+.navbar-inverse .btn-primary.active {
+  background-color:#444444;
+  border-color: #222222;
+}
+
+.header {
+  margin-bottom: 2em;
+}
+
 /* Header
 --------- */
 
