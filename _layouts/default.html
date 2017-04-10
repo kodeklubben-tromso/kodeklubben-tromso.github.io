@@ -1,40 +1,77 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="nb">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Kodeklubben Tromsø - {{ page.title }}</title>
-        <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
         <link href="stylesheets/style.css" rel="stylesheet" />
+        <script src="js/particles.min.js"></script>
     </head>
+    <body id="particles-js" >
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/nb_NO/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
-    <body>
-        <div class="jumbotron text-center">
-            <h1>Kodeklubben</h1>
-            <h2>TROMSØ</h2>
-        </div>
+        <!-- div class="container">
         {% include carousel.html %}
+        </div -->
+
+        <div class="container">
+            <div class="header row align-items-end justify-content-between mb-4">
+                <div class="col-xs">
+                    <a href="index.html"><img src="static/logo.png" width="200" alt="Kodeklubben Tromsø"></a>
+                </div>
+                <div class="col-xs-12 col-md-auto">
+
+                    <nav class="navbar navbar-toggleable-sm navbar-inverse">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- span class="navbar-brand">
+                            <img src="static/logo_notext.png" alt="Kodeklubben Tromsø">
+                            Kodeklubben Tromsø</span -->
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav btn-group mr-auto">
+                                <li class="nav-item btn btn-primary btn-sm {% if page.menuclass == "forside" %}active{% endif %}">
+                                    <a class="nav-link" href="index.html">Forside</a>
+                                </li>
+                                <li class="nav-item btn btn-primary btn-sm {% if page.menuclass == "omkk" %}active{% endif %}">
+                                    <a class="nav-link" href="om_kodeklubben.html">Om kodeklubben</a>
+                                </li>
+                                <li class="nav-item btn btn-primary btn-sm {% if page.menuclass == "kursene" %}active{% endif %}">
+                                    <a class="nav-link" href="kursene.html">Kursene</a>
+                                </li>
+                                <li class="nav-item btn btn-primary btn-sm {% if page.menuclass == "kontakt" %}active{% endif %}">
+                                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
         <div class="container content">
         {{ content }}
-
-            <footer>
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>Kodeklubben Tromsø, 2016-2017</p>
-            </footer>
         </div>
-
-        <script language="JavaScript" type="text/javascript">
-        $(document).ready(function(){
-            $('.carousel').carousel({
-            interval: 6000
-            })
-        });
-        </script>
+        <footer class="text-center mt-4">
+            <p>Kodeklubben Tromsø, 2016-2017</p>
+        </footer>
     </body>
+<script>
+particlesJS.load('particles-js', 'static/particles.json', function() {
+});</script>
 </html>

@@ -7,7 +7,7 @@
 $textcolor : #F9F513;
 $backgroundcolor: #393535;
 
-@font-face{
+@font-face {
 	font-family: 'Minecrafter';
 	src: url('../fonts/minecrafter.reg-webfont.eot');
 	src: url('../fonts/minecrafter.reg-webfont.eot?#iefix') format('embedded-opentype'),
@@ -19,20 +19,14 @@ $backgroundcolor: #393535;
 /* Base styles
 -------------- */
 
-* {
+html, body {
+
+}
+
+html, body, * {
   font-family: "Press Start 2P";
 	color: $textcolor;
 }
-
-html {
-    background-color: $backgroundcolor;
-}
-
-hr {
-  margin: 80px 0;
-  border: none !important; /* @TODO This will be removed */
-}
-
 
 h2, h3, h4, h5, h6 {
   text-shadow:
@@ -42,9 +36,53 @@ h2, h3, h4, h5, h6 {
 	1px  1px 0 #000;
 }
 
+.card-inverse .list-group-item {
+  background-color: transparent;
+}
+
+/* Navbar
+--------- */
+.navbar-brand {
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+  font-size: 1.5em;
+	color: $textcolor !important;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+  color: $textcolor !important;
+}
+
+.navbar-inverse .navbar-nav .active .nav-link {
+  text-decoration: underline;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px red;
+}
+
+.navbar-inverse .btn-primary {
+  background-color: transparent;
+  border-color: #222222;
+}
+
+.navbar-inverse .btn-primary.active {
+  background-color:#444444;
+  border-color: #222222;
+}
 
 /* Header
 --------- */
+
+canvas.particles-js-canvas-el {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-color: $backgroundcolor;
+}
 
 .jumbotron {
   background-color: $backgroundcolor;
@@ -52,7 +90,6 @@ h2, h3, h4, h5, h6 {
 }
 
 .jumbotron h1, .jumbotron h2 {
-  color: $textcolor;
 
   text-shadow:
     3px 3px 0 #000,
@@ -70,36 +107,18 @@ h2, h3, h4, h5, h6 {
 /* Carousel
 -----------  */
 
-/*
 .carousel {
-  margin-bottom: 150px;
-  max-height: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
-*/
 
 .carousel-caption, .carousel-caption a {
   text-transform: capitalize;
-	font-size: 70px;
+	font-size: 1.5em;
 	color: $textcolor;
 }
 
-
-.carousel-inner > .item > img {
-  /* Some weird auto-sizing to make the image scale accordingly */
-	bottom: 0;
-    left: 0;
-    margin: auto;
-    min-width: 100%;
-	min-height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
+.carousel-item {
+  background-size: cover;
+  height: 25em;
 }
-
-html,body{height: 100%;}
-.carousel{height:80%;}
-.item,.active{height:100%;}
-.carousel-inner{height:100%;}
-.fill{width:100%;height:100%;background-position:center;background-size:cover;}
-
-

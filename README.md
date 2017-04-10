@@ -6,6 +6,7 @@ Teknologistack:
 * [Jekyll](https://jekyllrb.com) (static site generator)
 * [Bootstrap](http://getbootstrap.com/) (CSS rammeverk)
 * [jQuery](https://jquery.com) (JS rammeverk)
+* [Particles.js](https://github.com/VincentGarreau/particles.js/) (bakgrunn)
 
 Bruksanvisning:
 
