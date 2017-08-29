@@ -8,7 +8,7 @@ Kursene i Kodeklubben Tromsø varierer nesten hvert semester for å kunne tilby 
 og for å ivareta de delene vi syns fungerer bra og gir godt læringsutbytte. Nybegynnerkurset er som regel fast, da
 vi ser at [Scratch](https://scratch.mit.edu) fungerer veldig bra som en innføring til Kodeklubben og første møte med programmering.
 
-Våren 2017 kjører vi to forskjellige kurs fra og med tirsdag 21. februar frem til påske.
+Høsten 2017 kjører vi to forskjellige kurs fra og med tirsdag 12. september og 8 uker fremover til og med 31. oktober. Og så holder vi en avslutning 7. november.
 
 <div class="row">
     <div class="col-sm-6">
@@ -17,14 +17,14 @@ Våren 2017 kjører vi to forskjellige kurs fra og med tirsdag 21. februar frem 
         <div class="card-block">
             <h4 class="card-title">Nybegynnerkurs</h4>
             <p class="card-text">
-            Nybegynnerkurset vårt benytter <a href="https://scratch.mit.edu">Scratch</a> og <a href="http://littlebits.cc">Littlebits</a>.
+            Nybegynnerkurset vårt benytter primært <a href="https://scratch.mit.edu">Scratch</a>, men det kan også hende vi prøver ut noen <a href="http://microbit.org">Microbits</a>.
             </p>
             <ul class="list-group list-group-flush">
             <li class="list-group-item">Tid: Tirsdager kl 18-20</li>
-            <li class="list-group-item">Sted: Teknologibygget rom 1.026</li>
+            <li class="list-group-item">Sted: Realfagbygget, skolelabben (A140)</li>
             <li class="list-group-item">Egnet for: Alle.</li>
             </ul>
-            <a href="https://goo.gl/forms/eWbrlPPKz3U50V4K2" target="_blank" class="btn btn-primary">Påmelding</a>
+            <a href="https://goo.gl/forms/" target="_blank" class="btn btn-primary">Påmelding</a>
         </div>
         </div>
     </div>
@@ -34,14 +34,14 @@ Våren 2017 kjører vi to forskjellige kurs fra og med tirsdag 21. februar frem 
         <div class="card-block">
             <h4 class="card-title">Kurs for viderekomne</h4>
             <p class="card-text">
-            Dette kurset inneholder Littlebits, BBC Micro:Bit, Mindstorm EVO roboter og lignende.
+            Dette kurset inneholder <a href="https://www.yoyogames.com/gamemaker/">Gamemaker studio 2</a>, men det kan også hende vi setter av et par ganger til å se på hvordan man lager nettsider (litt avhengig av interesse).
             </p>
             <ul class="list-group list-group-flush">
             <li class="list-group-item">Tid: Tirsdager kl 18-20</li>
-            <li class="list-group-item">Sted: Realfagbygget, skolelabben (A140)</li>
-            <li class="list-group-item">Egnet for: De som har vært på kodeklubben ett semester før.</li>
+            <li class="list-group-item">Sted: Teknologibygget rom 1.026</li>
+            <li class="list-group-item">Egnet for: De som har vært på kodeklubben minst ett semester før.</li>
             </ul>
-            <a href="https://goo.gl/forms/5qs1NpBErupYF4Sn2" target="_blank" class="btn btn-primary">Påmelding</a>
+            <a href="https://goo.gl/forms/" target="_blank" class="btn btn-primary">Påmelding</a>
         </div>
         </div>
     </div>
