@@ -34,7 +34,7 @@ Høsten 2017 kjører vi to forskjellige kurs fra og med tirsdag 12. september og
         <div class="card-block">
             <h4 class="card-title">Kurs for viderekomne (15 plasser)</h4>
             <p class="card-text">
-            Dette kurset inneholder <a href="https://www.yoyogames.com/gamemaker/">Gamemaker studio 2</a>, men det kan også hende vi setter av et par ganger til å se på hvordan man lager nettsider (litt avhengig av interesse).
+            Dette kurset inneholder <a href="http://www.gamemaker8.com/">Gamemaker 8</a>, men det kan også hende vi setter av et par ganger til å se på hvordan man lager nettsider (litt avhengig av interesse).
             </p>
             <ul class="list-group list-group-flush">
             <li class="list-group-item">Tid: Tirsdager kl 18-20</li>
