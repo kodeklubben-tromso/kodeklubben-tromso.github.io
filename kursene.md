@@ -21,7 +21,7 @@ Høsten 2017 kjører vi to forskjellige kurs fra og med tirsdag 12. september og
             </p>
             <ul class="list-group list-group-flush">
             <li class="list-group-item">Tid: Tirsdager kl 18-20</li>
-            <li class="list-group-item">Sted: Realfagbygget, skolelabben (A140)</li>
+            <li class="list-group-item">Sted: Teknologibygget rom 1.026</li>
             <li class="list-group-item">Egnet for: Fra 7 år og oppover.</li>
             </ul>
             <a href="https://goo.gl/forms/OalBXQHjUKZzOqIi2" target="_blank" class="btn btn-primary">Påmelding</a>
@@ -38,7 +38,7 @@ Høsten 2017 kjører vi to forskjellige kurs fra og med tirsdag 12. september og
             </p>
             <ul class="list-group list-group-flush">
             <li class="list-group-item">Tid: Tirsdager kl 18-20</li>
-            <li class="list-group-item">Sted: Teknologibygget rom 1.026</li>
+            <li class="list-group-item">Sted: Realfagbygget, skolelabben (A140) </li>
             <li class="list-group-item">Egnet for: De som har vært på kodeklubben minst ett semester før og som skjønner litt engelsk.</li>
             </ul>
             <a href="https://goo.gl/forms/PY8HlC8SqbaSTnSG2" target="_blank" class="btn btn-primary">Påmelding</a>
