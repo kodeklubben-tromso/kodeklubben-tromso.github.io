@@ -18,3 +18,7 @@ Bruksanvisning:
 6. Hvis ikke fornøyd, loop til pkt 4. :)
 7. Commit og push. Jobbet du på en fork, lag pull-request.
 8. Github vil bygge og publisere endringer i master-branchen automatisk.
+
+Kjent issue:
+
+* Hamburger-ikonet er sort på mørkegrå bakgrunn. :-/ Løsningen på dette er antakelig å kompilere vår egen bootstrap istedenfor å lenke til CDN.
