@@ -47,3 +47,8 @@ Høsten 2017 kjører vi to forskjellige kurs fra og med tirsdag 12. september og
     </div>
 </div>
 
+|  Kveld #      | Nybegynner    | Videregående  |
+| ------------- |:-------------:| -----:|
+| 0             |  				  | [Kryptering](https://github.com/kodeklubben-tromso/python/blob/master/0/crypt.py) |
+| 1             |       		  | [Klasser](https://github.com/kodeklubben-tromso/python/blob/master/1/class_intro.py)|
+
