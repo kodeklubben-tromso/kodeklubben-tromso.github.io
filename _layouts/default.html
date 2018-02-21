@@ -6,10 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Kodeklubben Tromsø - {{ page.title }}</title>
         <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
         <link href="stylesheets/style.css" rel="stylesheet" />
         <script src="js/particles.min.js"></script>
@@ -35,7 +36,7 @@
                 </div>
                 <div class="col-xs-12 col-md-auto">
 
-                    <nav class="navbar navbar-toggleable-sm navbar-inverse">
+                    <nav class="navbar navbar-expand-sm navbar-inverse">
                         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -54,6 +55,9 @@
                                 <li class="nav-item btn btn-primary btn-sm {% if page.menuclass == "kursene" %}active{% endif %}">
                                     <a class="nav-link" href="kursene.html">Kursene</a>
                                 </li>
+                                <li class="nav-item btn btn-primary btn-sm {% if page.menuclass == "frivillig" %}active{% endif %}">
+                                    <a class="nav-link" href="frivillig.html">Bli frivillig</a>
+                                </li>
                                 <li class="nav-item btn btn-primary btn-sm {% if page.menuclass == "kontakt" %}active{% endif %}">
                                     <a class="nav-link" href="kontakt.html">Kontakt</a>
                                 </li>
@@ -68,7 +72,7 @@
         {{ content }}
         </div>
         <footer class="text-center mt-4">
-            <p>Kodeklubben Tromsø, 2016-2017</p>
+            <p>Kodeklubben Tromsø, 2018</p>
         </footer>
     </body>
 <script>
