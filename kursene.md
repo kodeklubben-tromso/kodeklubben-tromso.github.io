@@ -25,8 +25,8 @@ Begge kursene vil foregå på forskjellige rom på Realfagbygget og Teknologibyg
             <li class="list-group-item">Tid: Tirsdager kl 18-20</li>
             <li class="list-group-item">Sted: <a href="http://bit.ly/2EnfF5m">Teknologibygget rom 1.026</a></li>
             <li class="list-group-item">Egnet for: Fra 7 år og oppover.</li>
+            <li class="list-group-item">Påmelding er stengt for vårsemesteret 2018</li>
             </ul>
-            <a href="https://skjema.uio.no/kodeklubbnybegynner" target="_blank" class="btn btn-primary">Påmelding</a>
         </div>
         </div>
     </div>
@@ -42,30 +42,29 @@ Begge kursene vil foregå på forskjellige rom på Realfagbygget og Teknologibyg
             <li class="list-group-item">Tid: Tirsdager kl 18-20</li>
             <li class="list-group-item">Sted: <a href="http://bit.ly/2EYCaP9">Realfagbygget, skolelabben (A140)</a> </li>
             <li class="list-group-item">Egnet for: De som har vært på kodeklubben minst ett semester før, skjønner litt engelsk og kan skrive selvstending på datamaskin.</li>
+            <li class="list-group-item">Påmelding er stengt for vårsemesteret 2018</li>
             </ul>
-            <a href="https://skjema.uio.no/kodeklubbvideregaende" target="_blank" class="btn btn-primary">Påmelding</a>
         </div>
         </div>
     </div>
-</div>
-
-<div class="row">
-	<table style="width: 100%">
-		<tr>
-			<th> Kveld # </th>
-			<th> Nybegynner </th>
-			<th> Videregående </th>
-		</tr>
-		<tr>
-			<td> 0 </td>
-			<td> 	</td>
-			<td> <a href="https://github.com/kodeklubben-tromso/python/blob/master/0/crypt.py"> Kryptering </a> </td>
-		</tr>
-		<tr>
-			<td> 1 </td>
-			<td>   </td>
-			<td> <a href="https://github.com/kodeklubben-tromso/python/blob/master/1/class_intro.py"> Klasser </a></td>
-		</tr>
-	</table>
-
+    <div class="col-sm-12">
+        <h3>Kursoppgavene</h3> 
+        <table class="table table-dark table-bordered" style="width: 100%; margin-top: 25px; background-color: #333;">
+            <tr>
+                <th> Kveld # </th>
+                <th class="text-center"> Nybegynner </th>
+                <th class="text-right"> Videregående </th>
+            </tr>
+            <tr>
+                <td> 0 </td>
+                <td class="text-center"> 	</td>
+                <td class="text-right"> <a href="https://github.com/kodeklubben-tromso/python/blob/master/0/crypt.py"> Kryptering </a> </td>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td class="text-center">   </td>
+                <td class="text-right"> <a href="https://github.com/kodeklubben-tromso/python/blob/master/1/class_intro.py"> Klasser </a></td>
+            </tr>
+        </table>
+    </div>
 </div>
