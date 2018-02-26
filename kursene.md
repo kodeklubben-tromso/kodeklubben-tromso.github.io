@@ -49,8 +49,23 @@ Begge kursene vil foregå på forskjellige rom på Realfagbygget og Teknologibyg
     </div>
 </div>
 
-|  Kveld #      | Nybegynner    | Videregående  |
-| ------------- |:-------------:| -----:|
-| 0             |  				  | [Kryptering](https://github.com/kodeklubben-tromso/python/blob/master/0/crypt.py) |
-| 1             |       		  | [Klasser](https://github.com/kodeklubben-tromso/python/blob/master/1/class_intro.py)|
+<div class="row">
+	<table style="width: 100%">
+		<tr>
+			<th> Kveld # </th>
+			<th> Nybegynner </th>
+			<th> Videregående </th>
+		</tr>
+		<tr>
+			<td> 0 </td>
+			<td> 	</td>
+			<td> <a href="https://github.com/kodeklubben-tromso/python/blob/master/0/crypt.py"> Kryptering </a> </td>
+		</tr>
+		<tr>
+			<td> 1 </td>
+			<td>   </td>
+			<td> <a href="https://github.com/kodeklubben-tromso/python/blob/master/1/class_intro.py"> Klasser </a></td>
+		</tr>
+	</table>
 
+</div>
