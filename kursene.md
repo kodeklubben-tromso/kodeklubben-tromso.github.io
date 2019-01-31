@@ -8,9 +8,9 @@ Kursene i Kodeklubben Tromsø varierer nesten hvert semester for å kunne tilby 
 og for å ivareta de delene vi syns fungerer bra og gir godt læringsutbytte. Nybegynnerkurset er som regel fast, da
 vi ser at [Scratch](https://scratch.mit.edu) fungerer veldig bra som en innføring til Kodeklubben og første møte med programmering.
 
-Våren 2018 kjører vi to forskjellige kurs fra og med Tirsdag 13. Februar og hver Tirsdag, 8 ganger fremover til og med 10. April (med unntak av 27.03.18 pga Påske).
+Våren 2019 kjører vi et 8 ukers kurs på onsdager.
 
-Begge kursene vil foregå på forskjellige rom på Realfagbygget og Teknologibygget på UiT. Vi kommer til å stå ved <a href="http://bit.ly/2EnaCC1">inngangen</a> til realfagbygget for å slippe alle inn, da dørene vil være låst på kvelden, både nybegynner og videregående kan møte her.
+Kurset vil foregå på Teknologibygget på UiT. Vi kommer til å stå ved <a href="http://bit.ly/2EnaCC1">inngangen</a> til realfagbygget for å slippe alle inn, da dørene vil være låst på kvelden. Dørene vil kun kun bli holdt åpne en begrenset stund, så det er viktig å komme presis.
 
 <div class="row">
     <div class="col-sm-6">
@@ -19,52 +19,15 @@ Begge kursene vil foregå på forskjellige rom på Realfagbygget og Teknologibyg
         <div class="card-block">
             <h4 class="card-title">Nybegynnerkurs (30 plasser)</h4>
             <p class="card-text">
-            Nybegynnerkurset vårt benytter primært <a href="https://scratch.mit.edu">Scratch</a>, men det kan også hende vi prøver ut noen <a href="http://microbit.org">Microbits</a>.
+            Nybegynnerkurset vårt benytter primært <a href="https://scratch.mit.edu">Scratch</a>.
             </p>
             <ul class="list-group list-group-flush">
-            <li class="list-group-item">Tid: Tirsdager kl 18-20</li>
+            <li class="list-group-item">Tid: Onsdager kl 18-20</li>
             <li class="list-group-item">Sted: <a href="http://bit.ly/2EnfF5m">Teknologibygget rom 1.026</a></li>
             <li class="list-group-item">Egnet for: Fra 7 år og oppover.</li>
-            <li class="list-group-item">Påmelding er stengt for vårsemesteret 2018</li>
+            <li class="list-group-item">Påmelding åpner snart</li>
             </ul>
         </div>
         </div>
-    </div>
-    <div class="col-sm-6">
-        <div class="card card-inverse" style="background-color: #333; border-color: #333;">
-        <!-- img class="card-img-top" src="..." alt="Card image cap" -->
-        <div class="card-block">
-            <h4 class="card-title">Kurs for videregående (30 plasser)</h4>
-            <p class="card-text">
-            Dette kurset inneholder tekstbasert programmering, hovedsaklig med <a href="https://www.python.org/">Python</a>.
-            </p>
-            <ul class="list-group list-group-flush">
-            <li class="list-group-item">Tid: Tirsdager kl 18-20</li>
-            <li class="list-group-item">Sted: <a href="http://bit.ly/2EYCaP9">Realfagbygget, skolelabben (A140)</a> </li>
-            <li class="list-group-item">Egnet for: De som har vært på kodeklubben minst ett semester før, skjønner litt engelsk og kan skrive selvstending på datamaskin.</li>
-            <li class="list-group-item">Påmelding er stengt for vårsemesteret 2018</li>
-            </ul>
-        </div>
-        </div>
-    </div>
-    <div class="col-sm-12">
-        <h3>Kursoppgavene</h3> 
-        <table class="table table-dark table-bordered" style="width: 100%; margin-top: 25px; background-color: #333;">
-            <tr>
-                <th> Kveld # </th>
-                <th class="text-center"> Nybegynner </th>
-                <th class="text-right"> Videregående </th>
-            </tr>
-            <tr>
-                <td> 0 </td>
-                <td class="text-center"> 	</td>
-                <td class="text-right"> <a href="https://github.com/kodeklubben-tromso/python/blob/master/0/crypt.py"> Kryptering </a> </td>
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td class="text-center">   </td>
-                <td class="text-right"> <a href="https://github.com/kodeklubben-tromso/python/blob/master/1/class_intro.py"> Klasser </a></td>
-            </tr>
-        </table>
     </div>
 </div>
