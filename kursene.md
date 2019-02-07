@@ -23,6 +23,7 @@ Kurset vil foregå på Teknologibygget på UiT. Vi kommer til å stå ved <a hre
             </p>
             <ul class="list-group list-group-flush">
             <li class="list-group-item">Tid: Onsdager kl 18-20</li>
+            <li class="list-group-item">Oppstart: 13. februar</li>
             <li class="list-group-item">Sted: <a href="http://bit.ly/2EnfF5m">Teknologibygget rom 1.026</a></li>
             <li class="list-group-item">Egnet for: Fra 8 år og oppover.</li>
             <li class="list-group-item"><a href="https://bit.ly/2DTVDBK" target="_blank" class="btn btn-primary">Påmelding</a></li>
