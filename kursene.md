@@ -10,7 +10,7 @@ vi ser at [Scratch](https://scratch.mit.edu) fungerer veldig bra som en innføri
 
 Høsten 2019 kjører vi et 8 ukers kurs på tirsdager. Kursene er altid gratis.
 
-Kurset vil foregå på Realfagsbygget på UiT. Vi kommer til å stå ved <a href="http://bit.ly/2EnaCC1">inngangen</a> til realfagbygget for å slippe alle inn, da dørene vil være låst på kvelden. Dørene vil kun kun bli holdt åpne en begrenset stund, så det er viktig å komme presis.
+Kurset vil foregå på Realfagsbygget på UiT. Vi kommer til å stå ved <a href="http://bit.ly/2EnaCC1">inngangen</a> til realfagbygget for å slippe alle inn, da dørene vil være låst på kvelden. Dørene vil kun bli holdt åpne en begrenset stund, så det er viktig å komme presis.
 
 <div class="row">
     <div class="col-sm-6">
