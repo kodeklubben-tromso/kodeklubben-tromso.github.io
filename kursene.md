@@ -26,8 +26,8 @@ Kurset vil foregå på Realfagsbygget på UiT. Vi kommer til å stå ved <a href
             <li class="list-group-item">Oppstart: 10. september</li>
             <li class="list-group-item">Sted: <a href="http://bit.ly/2ZMheDY">Realfagsbygget</a></li>
             <li class="list-group-item">Egnet for: Fra 8 år og oppover.</li>
-            <li class="list-group-item">Kurset er nå fulltegnet dette semesteret
-                <!--<a href="https://tinyurl.com/yxgpkpxf" target="_blank" class="btn btn-primary">Påmelding</a>--></li>
+            <li class="list-group-item">
+                <a href="https://tinyurl.com/yxgpkpxf" target="_blank" class="btn btn-primary">Påmelding</a></li>
             </ul>
         </div>
         </div>
